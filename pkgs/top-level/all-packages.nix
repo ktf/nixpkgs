@@ -22052,4 +22052,6 @@ with pkgs;
   powershell = callPackage ../shells/powershell { };
 
   doing = callPackage ../applications/misc/doing  { };
+
+  dds = callPackage ../applications/misc/dds { };
 }
